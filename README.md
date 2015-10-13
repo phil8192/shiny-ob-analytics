@@ -9,6 +9,7 @@ to visualise and explore
 [limit order book](http://parasec.net/transmission/order-book-visualisation/) 
 data. 
 
+
 ## Included data
 The data is based on 8 days of limit order book events obtained from the 
 bitstamp (bitcoin) exchange between 2015-08-18 and 2015-08-25 and has been 
@@ -16,6 +17,7 @@ preprocessed with [obAnalytics](https://github.com/phil8192/ob-analytics).
 
 The time period covers a substantial depreciation (-24% over 7 days) and a 
 significant market crash (-12% in < 30 minutes.) 
+
 
 ## Quick guide
 
@@ -86,8 +88,6 @@ individual limit order events (add, update, delete).
 
 ### Filtering
 
-<img style="float:right" src="screens/filtering.png" width="353" height="612" alt="filtering" label="filtering"/>
-
 All of the above graphs and tables may be filtered by time, price and volume. 
 
 If not specified, the tool will try to automatically determine the price and 
@@ -95,6 +95,7 @@ volume range based on the distribution of events.
 
 For convenience, price and volume histograms are shown to help determine the 
 filtering range.
+
 
 ## Installing
 
@@ -112,6 +113,7 @@ install.packages(devtools)
 library(devtools)
 install_github("phil8192/ob-analytics")
 ```
+
 
 ## Deploying
 
@@ -146,8 +148,8 @@ setAccountInfo(name="<account>", token="<token>", secret="<secret>")
 deployApp("/shiny-ob-analytics")
 ```
 
+
 ## License
 
 GPL (>= 2)
-
 
