@@ -115,7 +115,7 @@ install_github("phil8192/ob-analytics")
 ```
 
 
-## Deploying
+## Running 
 
 ### Locally
 
@@ -124,9 +124,6 @@ install_github("phil8192/ob-analytics")
 cd shiny-ob-analytics
 R --silent -e 'shiny::runApp(".", launch.browser=T)'
 ```
-
-### Remotely
-No install required.
 
 #### Via Github
 
@@ -145,7 +142,7 @@ install_github("rstudio/shinyapps")
 install_github("phil8192/ob-analytics")
 library(shinyapps)
 setAccountInfo(name="<account>", token="<token>", secret="<secret>")
-deployApp("/shiny-ob-analytics")
+deployApp("~/location/of/shiny-ob-analytics")
 ```
 
 
