@@ -1,0 +1,49 @@
+.form-control {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+pre {
+  background-color: #000000;
+  color: #ffffff; 
+}
+
+.selectize-control.single .selectize-input {
+  background-image: none !important;
+  background-color: #000000 !important;
+  text-shadow: none;
+  color: #c6c6c6;
+}
+
+.selectize-control.single .selectize-input:hover {
+  color: #ffffff;
+}
+
+.selectize-dropdown {
+  background-color: #000000;
+  color: #c6c6c6;
+}
+
+input, textarea {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #333333;
+}
+
+.irs-line {
+  background: linear-gradient(to bottom, #dddddd -50%, #000000 150%);
+  border: 1px solid #000000;
+}
+
+.irs-slider {
+  border: 1px solid #ffffff;
+  background: #000000;
+}
+
+.irs-from, .irs-to, .irs-single {
+  background: #000000;
+}    
+
+#ob_bids_out th {
+  text-align: right;
+}
