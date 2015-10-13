@@ -85,7 +85,8 @@ In addition to visualisation, the interface includes an interactive
 individual limit order events (add, update, delete). 
 
 ### Filtering
-<img style="float:left" src="screens/filtering.png" width="353" height="612" alt="filtering" label="filtering"/>
+
+<img style="float:right" src="screens/filtering.png" width="353" height="612" alt="filtering" label="filtering"/>
 
 All of the above graphs and tables may be filtered by time, price and volume. 
 
