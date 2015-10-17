@@ -145,6 +145,9 @@ setAccountInfo(name="<account>", token="<token>", secret="<secret>")
 deployApp("~/location/of/shiny-ob-analytics")
 ```
 
+## Demo
+A demo is available on shinyapps.io. Please allow a few seconds for the data to
+load: https://infrared.shinyapps.io/shiny-ob-analytics
 
 ## License
 
