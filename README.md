@@ -1,5 +1,7 @@
 # obAnalytics | Microstructure visualisation
-[![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html)
+
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-blue.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html)
 
 __shiny-obAnalytics__ is an experimental tool/demo developed using the 
 [shiny](https://github.com/rstudio/shiny) web application framework for R.
